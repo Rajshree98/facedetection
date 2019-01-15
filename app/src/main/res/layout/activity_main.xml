@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+   android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:layout_marginTop="20dp"
+    android:id="@+id/logo"
+    android:src="@drawable/logo"
+    android:layout_gravity="center_vertical|center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/ll0"
+        android:layout_marginTop="50dp">
+
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="5"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/ll2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:layout_height="0dp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="@string/name"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="@string/contact"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="@string/Address"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginTop="20dp"
+            android:textColor="#000"
+            android:padding="10dp"
+            android:text="@string/Aadhaar"
+            android:layout_marginLeft="20dp"
+            android:textSize="20dp"/>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+            android:padding="10dp"
+        android:textColor="#000"
+
+            android:layout_marginTop="20dp"
+        android:text="@string/gender"
+        android:layout_marginLeft="20dp"
+        android:textSize="20dp"/>
+
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/ll3">
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:textColorHint="#535051"
+        android:padding="10dp"
+        android:id="@+id/et1"
+        android:background="@drawable/round_corner"
+        android:hint="Enter name here"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:id="@+id/et2"
+
+                android:textColorHint="#535051"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner"
+                android:hint="Enter Contact here"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:textColorHint="#535051"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner"
+                android:id="@+id/et3"
+                android:hint="Enter Address here"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:padding="10dp"
+                android:textColorHint="#535051"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner"
+                android:id="@+id/et4"
+                android:hint="Enter Aadhaar number"/>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="5"
+                android:textColorHint="#535051"
+                android:padding="10dp"
+                android:textColor="#000"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/round_corner"
+                android:id="@+id/et5"
+                android:hint="Enter Gender here"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cb1"
+            android:layout_marginTop="15dp"
+            android:textColor="#535051"
+            android:textStyle="italic"
+            android:text="@string/confirmation"
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account"
+            android:textStyle="bold"
+            android:layout_marginRight="5dp"
+            android:textColor="#000"
+            android:textSize="12dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                android:id="@+id/tv"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/submit"
+    android:background="#47499e"
+    android:id="@+id/rsubmit"
+    android:layout_marginTop="10dp"
+    android:textColor="#fff"
+    android:layout_gravity="center"/>
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>

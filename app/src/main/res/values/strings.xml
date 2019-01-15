@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ui</string>
+    <string name="name">Name:</string>
+    <string name="contact">Contact:</string>
+    <string name="Address">Address:</string>
+    <string name="Aadhaar">Aadhaar:</string>
+    <string name="gender">Gender:</string>
+    <string name="password">Password:</string>
+    <string name="confirmation">I hereby confirm that all the above details are correct,if found unauthentic I
+    shall be liable to punishment</string>
+    <string name="account">Already have an account? </string>
+    <string name="login">Login here</string>
+    <string name="submit">SUBMIT</string>
+    <string name="login_here">Login Here</string>
+    <string name="rmobile">Enter registered mobile number</string>
+    <string name="forgot_password">Forgot Password</string>
+</resources>

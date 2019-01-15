@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478640900332",
+    "firebase_url": "https://uifirebaseproject-68a56.firebaseio.com",
+    "project_id": "uifirebaseproject-68a56",
+    "storage_bucket": "uifirebaseproject-68a56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478640900332:android:20320f339c7070f0",
+        "android_client_info": {
+          "package_name": "com.nema.rajshree.ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478640900332-1acbfht0f60todohkgh0gspvam7f22nd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nema.rajshree.ui",
+            "certificate_hash": "14d82be2a34e8f7f9d8de5ee2ee52cbbbb0357ba"
+          }
+        },
+        {
+          "client_id": "478640900332-th5vgmnvvc1b2t94qr6annn5d7i3tqm2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKRmQjhpGde_KrOBW_T86cPsNcMPuIqBw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478640900332-th5vgmnvvc1b2t94qr6annn5d7i3tqm2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
